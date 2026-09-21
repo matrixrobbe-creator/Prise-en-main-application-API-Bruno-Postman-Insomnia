@@ -1,0 +1,28 @@
+# Compte rendu TP1 Jeu de piste B1 ROBBE Maxime
+
+## Mission 0 : Découverte des applications Bruno, Insomnia et Postman
+
+### Je vais commencer le TP sur l'application Bruno
+
+* Je viens renseigner l'URL fourni dans le TP dans le champ réservé pour et je vais commencer avec la requête du GET : ![alt text](image.png)
+![alt text](image-1.png)
+* Sur Bruno la réponse s'affiche tel un code qu'on viens de taper dans un IDE avec son propre code couleur.
+* La requête se sauvegarde dans une collection qu'on crée au préable et dans laquel on pourra par la suite stocker d'autre requête dedans avec un nom précis afin de pouvoir bien ranger et trier nos requêtes.
+* Puis je vais exécuter ma requête POST dans laquelle je vais rajouter le petit bout de code qui nous est fourni dans le TP. Pour se faire je vais devoir allez dans la section body de la requête POST et renseigner mon code à l'intérieur, le sauvegarder puis par la suite l'exécuter pour obtenir le résultat voulu.
+![alt text](image-2.png)
+* Par la suite on nous demande de rajouter un Header bien spécifique de type json, pour se faire on va devoir se rendre dans la catégorie Header renseigner le nom  de notre header ainsi que sa valeur pour que cela puisse s'effectuer et on pourra après se rendre dans la catégorie header pour regarder si oui ou non notre modification à bien était prise en compte.
+![alt text](image-3.png)
+On peut bien se rendre compte que notre modification à était prise en compte dans la case content-type car notre application/json y figure bien.
+
+### Désormais je passe à l'application Insomnia 
+
+* Le procédé ici est très semblable à Bruno, on doit créer notre collection puis on viendra créer notre requête et la sauvegarder dans notre collection de manière à pouvoir la ranger facilement. Ensuite on viens renseigner l'URL fourni dans le TP et nous obtenon le résultat suivant avec notre requête GET:
+![alt text](image-4.png)
+* Ici l'affichage est cependant assez différent de Bruno surtout sur la façon de nous afficher le résultat de la requête que nous venons d'effectuer mais cela reste quand même compréhensible et assez simple d'utilisation.
+* Maintenant nous allez faire notre requête Post avec les quelques modifications qui nous sont données et demandées.
+![alt text](image-5.png)
+
+### On fini maintenant avec Postman
+
+* On viens réaliser les mêmes manipulation ainsi que les différentes modifications qui nous sommes demandées dans le TP pour la requête Post.
+![alt text](image-6.png)![alt text](image-7.png)
