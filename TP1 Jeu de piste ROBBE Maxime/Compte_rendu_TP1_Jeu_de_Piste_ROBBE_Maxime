@@ -26,3 +26,61 @@ On peut bien se rendre compte que notre modification à était prise en compte d
 
 * On viens réaliser les mêmes manipulation ainsi que les différentes modifications qui nous sommes demandées dans le TP pour la requête Post.
 ![alt text](image-6.png)![alt text](image-7.png)
+
+## On commence désormais le jeu de piste de la missio 1 :
+
+### Première étape
+
+* Pour commencer la mission 1 on va commencer par renseigner l'URL de notre mission dans le champ réservé pour en Get.
+
+![alt text](image-8.png)
+
+### Deuxième étape
+
+* Pour la deuxième mission on viens renseigner la nouvelle URL qui nous est fourni en remplaçant le champ "VotreNom" par "ROBBE" tout en restant en méthode Get
+
+![alt text](image-9.png)
+
+### Troisième étape
+
+* Pour la mission trois on viens modifier les url avec en rajoutant les modifications pour le prénom ainsi que notre âge tout en faisant attention à comment rajouter le deuxième paramêtres dans notre URL. En effet pour faire un premier paramêtre on utilise ? mais pour en faire un autre ou dois faire &
+
+![alt text](image-10.png)
+
+### Quatrième étape
+
+* Pour cette étape on doit changer la méthode en Post alors qu'avant on étais en Get et on dois aussi penser à chaner l'URL qui nous à étais fourni.
+
+![alt text](image-11.png)
+
+### Cinquième étape
+
+* Pour cette étape on va commencer à rajouter des header en méthode Post. C'est un content-type application/json qu'on viens rajouter dans notre header
+
+![alt text](image-12.png)
+
+### Sixième étape
+
+* Ici on viens se metttre en méthode Put puis ensuite on viens aussi modifier les header pour rajouter un content type text/html puis un Accept application/json avec la nouvelle URL qui nous a étais fourni
+
+![alt text](image-13.png)
+
+### Septième étape
+
+* Pour faire cette étape on viens se mettre en méthode Delete pour commencer puis on viens renseigner notre nouvelle URL avec la spécificité de devoir rajouter le filename ainsi qu'un nom de fichier totalement aléatoire pour faire fonctionner l'URL.
+
+![alt text](image-14.png)
+
+## Huitième étape
+
+* Pour l'étape huit, on va venir se mettre en mode Patch pour commencer puis rajouter un header content-type avec un application/json. Enfin on va venir modifier notre body à la main pour rajouter du contenu json comme il nous est demander dans la requête. On viendra faire attention à bien écrire le code sinon l'URL nous affichera une erreur.
+
+![alt text](image-16.png)
+![alt text](image-15.png)
+
+## Neuvième étape
+
+* Pour cette dernière étape on viens se remettre en méthode Post, et on va modifier les headers encore une fois. On commence par rajouter un content-type application/json puis une clé API et enfin le User-agent. Pour couronner le tout on viens rajouter la aussi une entrée Json dans notre body pour faire fonctionner l'URL.
+
+![alt text](image-17.png)
+![alt text](image-18.png)
